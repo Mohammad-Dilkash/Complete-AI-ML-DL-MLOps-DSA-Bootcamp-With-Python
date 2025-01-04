@@ -1,4 +1,0 @@
-cmand propt select kr na hai
-conda create -p venv python==3.13
-conda activate venv/
-pip install ipykernel
