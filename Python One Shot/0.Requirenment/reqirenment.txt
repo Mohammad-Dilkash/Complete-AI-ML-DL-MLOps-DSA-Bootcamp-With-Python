@@ -1,0 +1,11 @@
+Download Python.org
+Download VsCode
+Install Extenstion.....
+1.Python 
+2.pylance 
+3.python debugger
+4.Black format
+--setting - Default format = Black format 
+--setting Tick= format on Save 
+
+5.code runner - coderunner - RunCode = ctrl + Alt + N 
