@@ -1,36 +1,30 @@
-# Assigns the value 10 to the variable x
+# Challenge 1: Shorthand Updates
+count = 5
+count += 3  # Add 3
+print(count)  # Output: 8
+count -= 2  # Subtract 2
+print(count)  # Output: 6
+count *= 4  # Multiply by 4
+print(count)  # Output: 24
+count /= 2  # Divide by 2
+print(count)  # Output: 12.0
 
-# Equivalent to x = x + 5
+# Challenge 2: Increment and Decrement
 x = 10
-x += 5
-print(x)
-
-# Equivalent to y = y - 3
 y = 20
-y -= 3
-print(y)
+x += 5  # Increment x by 5
+print(x)  # Output: 15
+y -= 3  # Decrement y by 3
+print(y)  # Output: 17
 
-# Equivalent to z = z * 2
-z = 5
-z *= 2
-print(z)
+# Challenge 3: Combining Operations
+total = 100
+item1 = 25
+item2 = 30
+total -= item1 + item2  # Subtract the combined cost of item1 and item2
+print(total)  # Output: 45
 
-# Equivalent to a = a / 4
-a = 8
-a /= 4
-print(a)
-
-# Equivalent to b = b // 3
-b = 17
-b //= 3
-print(b)
-
-# Equivalent to c = c ** 3
-c = 2
-c **= 3
-print(c)
-
-# Equivalent to d = d % 3
-d = 10
-d %= 3
-print(d)
+# Challenge 4: Augmented Assignment with Strings
+message = "Hello"
+message += " World!"  # Concatenate " World!" to message
+print(message)  # Output: Hello World!
